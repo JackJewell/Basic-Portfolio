@@ -83,7 +83,7 @@ footer{
     width: 100%;
     position: fixed;
     bottom: 0;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     border-style: solid;
     border-width: 8px 0px 0px 0px;
@@ -112,3 +112,25 @@ input{
 textarea{
     margin: 10px;
 }
+
+.pics{
+    margin: 10px;
+}
+
+.container{
+    clear: both;
+    position: relative;
+}
+
+.tealpics{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 220px;
+    padding: 10px 0px;
+    text-align: center;
+    left: 10px;
+    top: 130px;
+}
+
+
