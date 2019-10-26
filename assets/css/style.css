@@ -114,23 +114,90 @@ textarea{
 }
 
 .pics{
+    float: left;
     margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.container{
-    clear: both;
+#hangman{
     position: relative;
+    float: left;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#hm{
+    position: absolute;
+    left: 10px;
+    top: 130px;
+}
+
+#rpg{
+    position: relative;
+    float: left;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#rp{
+    position: absolute;
+    left: 10px;
+    top: 130px;
+}
+
+#trivia{
+    position: relative;
+    float: left;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#triv{
+    position: absolute;
+    left: 10px;
+    top: 130px;
+}
+
+
+#rutgers{
+    position: relative;
+    float: left;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#riw{
+    position: absolute;
+    left: 10px;
+    top: 130px;
+}
+
+#rps{
+    position: relative;
+    float: left;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#rock{
+    position: absolute;
+    left: 10px;
+    top: 130px;
 }
 
 .tealpics{
+    clear: both;
     color: #ffffff;
     background-color: #4aaaa5;
-    position: absolute;
     width: 220px;
     padding: 10px 0px;
     text-align: center;
-    left: 10px;
-    top: 130px;
 }
 
 
